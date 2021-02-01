@@ -1,0 +1,36 @@
+html {
+    webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #d5ecfc;
+    background-image: url(../img/gradien1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Open Sans", Andalus, serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+a,
+button {
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    text-decoration: red;
+}
+
+p {
+    line-height: 1.8;
+}
+
+.container-fluid {
+    max-width: 1200px;
+}
+
+.navbar-head {
+    background-color: transparent;
+    position: center;
+}

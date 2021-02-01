@@ -9,25 +9,33 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/myporto.css" type="text/css">
+    <link rel="stylesheet" href="css/indexstyle.css" type="text/css">
     <title>Home</title>
 </head>
 <body>
 <!-- Header Section -->
-    <!-- <nav class="navbar navbar-expand-sm bg-light navbar-light">
-        <ul class="nav justify-content-end">
-        <li class="nav-item">
-            <a class="nav-link" href="#about-me-content">About Me</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#porto-content">Experiences</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#galleries">Galleries</a>
-        </li>
-        </ul>
-    </nav>
-    <br> -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 navbar-head">
+                <nav class="navbar navbar-expand-sm navbar-light">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-me-content">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#xp-content">Experiences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#galleries">Galleries</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portofolio.html">Portofolio</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
     <section id="porto">
         <div class="porto-header text-left">
             <div class="container-fluid">
@@ -57,7 +65,7 @@
                                 Pribadi yang menyukai tantangan dan hal-hal baru untuk memotivasi agar saya berkembang menjadi lebih baik. Mudah beradaptasi dengan lingkungan, 
                             terbiasa bekerja dengan komputer, dan berkomunikasi dengan baik adalah modal saya untuk siap bekerja di luar latar belakang pendidikan. 
                             Meski sebagai lulusan Sarjana Pendidkan, saya memiliki minat dan konsen di bidang web programming dengan mendalami web design and programming 
-                            menggunakan bahasa pemrograman HTML, CSS, JavaScript, dan PHP.</p>
+                            menggunakan bahasa HTML, CSS, JavaScript, dan PHP.</p>
                         </div>
                     </div>
                     <!-- contact person section -->
@@ -73,47 +81,46 @@
         </div>
     </section>
     <!-- Portofolio Content -->
-    <section id="porto-content">
+    <section id="xp-content">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    
-                    <div class="porto-item">
-                        <div class="porto-name text-black bg-name">
+                    <div class="xp-item">
+                        <div class="xp-name text-black bg-name">
                             Field Commercial Agent
                         </div>
-                        <div class="porto-description">
-                            <h4 class="porto-text-black">
+                        <div class="xp-description">
+                            <h4 class="xp-text-black">
                                 Kios Bumbu Psr. Bantengan Yogyakarta
-                                <span class="porto-periode">(2020 March to 2020 November)</span></h4>
+                                <span class="xp-periode">(2020 March to 2020 November)</span></h4>
                             <p class="mb-0">Melayani penjualan bawang merah, bawang putih dan sembako, 
                                 baik melalui pemesanan online maupun offline untuk wilayah 
                                 Yogyakarta dan sekitarnya.</p>
                         </div>
                     </div>
 
-                    <div class="porto-item">
-                        <div class="porto-name text-black bg-name">
+                    <div class="xp-item">
+                        <div class="xp-name text-black bg-name">
                             Trip Advisor and Arrangement
                         </div>
-                        <div class="porto-description">
-                            <h4 class="porto-text-black">
+                        <div class="xp-description">
+                            <h4 class="xp-text-black">
                                 RaffTransport Yogyakarta
-                                <span class="porto-periode">(2017 November to 2020 February)</span></h4>
+                                <span class="xp-periode">(2017 November to 2020 February)</span></h4>
                             <p class="mb-0">Mengatur perjalanan wisata di Yogyakarta dan sekitarnya 
                                 untuk para wisatawan domestik maupun wisatawan luar negeri. 
                                 Dengan rekomemdasi paket wisata dari kami atau punya destinasi sendiri dari wisatawan.</p>
                         </div>
                     </div>
                     
-                    <div class="porto-item">
-                        <div class="porto-name text-black bg-name">
+                    <div class="xp-item">
+                        <div class="xp-name text-black bg-name">
                             Freelancer Driver
                         </div>
-                        <div class="porto-description">
-                            <h4 class="porto-text-black">
+                        <div class="xp-description">
+                            <h4 class="xp-text-black">
                                 Tour and Travel
-                                <span class="porto-periode">(2017 January to 2020 February)</span></h4>
+                                <span class="xp-periode">(2017 January to 2020 February)</span></h4>
                             <p class="mb-0">Menangani perjalanan dalam dan luar kota Yogyakarta baik perjalanan dinas
                                 maupun perjalanan wisata. Bergabung dengan beberapa agen tour dan travel di Yogyakarta.</p>
                         </div>
@@ -121,35 +128,37 @@
                 </div>
             </div>
             <!-- Gallery Content -->
-            <div class="gallery">
-                <div class="container-fluid">
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="galery-tittle">
-                                <h2>My Gallery</h2>
+            <section id="galleries">
+                <div class="gallery">
+                    <div class="container-fluid">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="galery-tittle">
+                                    <h2>My Gallery</h2>
+                                </div>
+                                <ul>
+                                    <li class="col-md-3">
+                                        <a class="image" href="#"></a>
+                                        <img src="img/galeri3.jpg" alt="gambar1">
+                                    </li>
+                                    <li class="col-md-3">
+                                        <a class="image" href="#"></a>
+                                        <img src="img/galeri4.jpg" alt="gambar2">
+                                    </li>
+                                    <li class="col-md-3">
+                                        <a class="image" href="#"></a>
+                                        <img src="img/galeri6.jpg" alt="gambar3">
+                                    </li>
+                                    <li class="col-md-3">
+                                        <a class="image" href="#"></a>
+                                        <img src="img/galeri5.jpg" alt="gambar4">
+                                    </li>
+                                </ul>
                             </div>
-                            <ul>
-                                <li class="col-md-3">
-                                    <a class="image" href="#"></a>
-                                    <img src="img/galeri3.jpg" alt="gambar1">
-                                </li>
-                                <li class="col-md-3">
-                                    <a class="image" href="#"></a>
-                                    <img src="img/galeri4.jpg" alt="gambar2">
-                                </li>
-                                <li class="col-md-3">
-                                    <a class="image" href="#"></a>
-                                    <img src="img/galeri6.jpg" alt="gambar3">
-                                </li>
-                                <li class="col-md-3">
-                                    <a class="image" href="#"></a>
-                                    <img src="img/galeri5.jpg" alt="gambar4">
-                                </li>
-                            </ul>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <!-- End Gallery Content -->
         </div>
     </section>
