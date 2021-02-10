@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -17,23 +17,28 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <nav class="navbar navbar-expand-sm navbar-head navbar-light">
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Experiences</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Galleries</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portofolio.html">Portofolio</a>
-                        </li>
-                    </ul>
+                <nav class="navbar navbar-expand-md bg-tranpsarent navbar-light">
+                    <a class="navbar-brand" href="intro.html">Hello World</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Experiences</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Galleries</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portofolio.html">Portofolio</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
-                <br>
             </div>
         </div>
     </div>
@@ -41,11 +46,120 @@
 
 <!-- Portofolio Section -->
     <section id="porto-contet">
-        
-    </section>
+        <!-- Card 0 Header -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12" id="card-header">
+                    <div class="container">
+                        <h2>Selamat Datang di Ruang Kreasi</h2>
+                        <div class="card img-fluid" style="width:100%">
+                            <img class="card-img-top" src="img/galeri6.jpg" alt="Cover image" style="width:100%">
+                            <div class="card-img-overlay">
+                                <p class="card-text">"Dan telah Kami jadikan di Bumi ini gunung-gunung yang kokoh supaya Bumi itu (tidak) guncang bersama mereka dan telah
+                                Kami jadikan (pula) di Bumi itu jalan-jalan yang luas agar mereka mendapat petunjuk" (QS. Al-Anbiya' ayat 31)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Card Header -->
+        <!-- Card 1 (portofolio content) -->
+        <div class="container-fluid">
+            <div class="row" id="top-card">
+                <div class="col-md-6 card-1" >
+                    <div class="container">
+                        <h2>Berkreasi Menggunakan Corel Draw</h2>
+                        <div class="card">
+                            <div class="card-header"> Membuat Stiker Kelas </div>
+                            <div class="card-body card-1 img">
+                                <img src="img/stiker.jpg" alt="Stiker">
+                            </div>
+                            <div class="card-footer">Berbekal belajar bersama teman kuliah dengan
+                                melihat proses pembuatan logo pada desain kaos mereka
+                                saya dapat berkreasi sendiri menggunakan aplikasi Corel-Draw yaitu membuat stiker kelas.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!-- End of card 1 -->
+        <!-- Card 2 (portofolio content) -->
+                <div class="col-md-6 card-2">
+                    <div class="container">
+                        <h2>Kreasi Kedua</h2>
+                        <div class="card">
+                            <div class="card-header">Membuat Poster Peringatan Belasungkawa</div>
+                            <div class="card-body card-2 img">
+                                <img src="img/pengetan1.jpg" alt="pengetan">
+                            </div>
+                            <div class="card-footer">Kreasi kedua ini atas permintaan tetangga, dalam rangka mengenang atas
+                                meninggalnya suami dan ayah tercinta. Saya diminta untuk membuat kartu ucapan sederhana untuk
+                                dicetak di kertas ukuran B5.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of card 2 -->
+        <!-- Card 3 (portofolio content) -->
+        <div class="container-fluid">
+            <div class="row" id="last-card">
+                <div class="col-md-4 card-3">
+                    <div class="container">
+                        <h2>Eksplorasi Kamera</h2>
+                        <div class="card">
+                            <div class="card-header">Pantai Parangtritis di Awal Tahun</div>
+                            <div class="card-body">
+                                <img src="img/galeri5.jpg" alt="Eksplor">
+                            </div>
+                            <div class="card-footer">Foto ini diambil di Pantai Parangtritis. Belajar fotografi secara otodidak
+                                bersama teman-teman memang menyenangkan. Mencoba eksplorasi komposisi dan melewati trial dan error
+                                untuk mendapatkan moment yang tak terlupakan.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of card 3 -->
+                <!-- Card 4 (portofolio content) -->
+                <div class="col-md-4 card-4">
+                    <div class="container">
+                        <h2>&nbsp;</h2>
+                        <div class="card">
+                            <div class="card-header">Beautiful in Glamour</div>
+                            <div class="card-body">
+                                <img src="img/galeri1.jpg" alt="beauty">
+                            </div>
+                            <div class="card-footer">Bersama komunitas fotografi Temanggung mengadakan hunting fotografi
+                                serta mempromosikan desain batik dari Batik Laras Tirto Temanggung.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of card 4 -->
+                <!-- Card 5 (portofolio content) -->
+                <div class="col-md-4 card-5">
+                    <div class="container">
+                        <h2>&nbsp;</h2>
+                        <div class="card">
+                            <div class="card-header">Sunset Hunter</div>
+                            <div class="card-body">
+                                <img src="img/galeri7.jpg" alt="hunter">
+                            </div>
+                            <div class="card-footer">Bicara tentang pasir dipantai atau ombak laut,
+                                menarik memang tetapi tak ada yang melebihi khidmadnya menyaksikan
+                                matahari terbenam, semuanya terasa amat sepi.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of card 5 -->
 <!-- End Portofolio Section -->
 
 <!-- Footer Section -->
+
     <div class="row">
         <div class="col-12">
             <p class="text-center copyright-text">
