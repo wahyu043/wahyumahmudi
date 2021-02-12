@@ -1,5 +1,4 @@
 html {
-    webkit-font-smoothing: antialiased;
     scroll-behavior: smooth;
 }
 
@@ -26,10 +25,6 @@ p {
     line-height: 1.8;
 }
 
-#porto_content {
-
-}
-
 .container-fluid {
     max-width: 1200px;
 }
@@ -53,29 +48,40 @@ p {
 }
 .card {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
+
+.card-body {
+    padding: 100px auto;
 }
 
 .card-1 img {
+    resize: both;
+    margin: 15px auto;
     width: 300px;
-    height: 160px;
+    height: auto;
 }
 
 .card-2 img {
+    margin: 15px auto;
     width: 180px;
     height: 300px;
 }
 
 .card-3 img {
+    margin: 15px auto;
     width: 300px;
     height: 160px;
 }
 
 .card-4 img {
+    margin: 15px auto;
     width: 196px;
     height: 300px;
 }
 
 .card-5 img {
+    margin: 15px auto;
     width: 193px;
     height: 300;
 }
@@ -84,4 +90,16 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (max-width: 640px) {
+    .card {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 640px) {
+    .card-1 {
+        width: 100%;
+    }
 }
