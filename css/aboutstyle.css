@@ -1,0 +1,271 @@
+/* First Developing My Porto Project */
+
+html {
+    scroll-behavior: auto;
+}
+
+body {
+    background-color: #d5ecfc;
+    background-image: url(../img/gradien1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Open Sans", Andalus, serif;
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+
+a,
+button {
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    text-decoration: red;
+}
+
+p {
+    line-height: 1.8;
+}
+
+.container-fluid {
+    max-width: 1200px;
+}
+
+#about-me-content {
+    background-color: rgba(255, 245, 237, 0.5);
+}
+/* Content Section */
+#xp-content {
+    padding-top: 80px;
+    position: relative;
+    display: flexbox;
+    align-items: center;
+}
+
+.navbar-head {
+    background-color: transparent;
+    position: center;
+}
+
+.header-pict img {
+    background-color: transparent;
+    width: 160px;
+    height: 200px;
+}
+
+.porto-header {
+    background-color: transparent;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 54px 34px 44px;
+}
+
+.contact-icon {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.porto-about-tittle {
+    align-items: center;
+    font-size: 35px;
+}
+
+.porto-contact {
+    text-align: left;
+    background-color: transparent;
+}
+.porto-about-me {
+    background-color: transparent;
+    align-items: justify;
+}
+
+/* Portofolio Section */
+.xp-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.xp-name {
+    width: 21rem;
+    height: 14rem;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    padding: 70px 95px;
+    display: flex;
+}
+
+.xp-periode {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+.bg-name {
+    background-color: rgba(135, 206, 250, 0.5);
+}
+
+.xp-description {
+    width: calc(100% - 330px);
+    padding: 20px 45px;
+}
+
+@media (max-width: 730px) {
+    .xp-item {
+        flex-direction: column;
+    }
+    
+    .xp-name {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 30px;
+    }
+
+    .xp-description {
+        /* justify-direction: column; */
+        justify-content: center;
+        padding: 20px 30px;
+    }
+
+    .xp-description,
+    .xp-name {
+        width: 100%;
+    }
+}
+
+.gallery-tittle {
+    font-size: 35px;
+    font-style: oblique;
+}
+
+.gallery ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery ul li {
+    margin: 0;
+    position: relative;
+    list-style: none;
+    float: left;
+    padding: 0;
+}
+
+.gallery ul li a {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+.interest-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.interest-item {
+    width: 33.3334%;
+    max-width: 345px;
+    height: auto;
+    min-height: 420px;
+    margin-right: 35px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 54px 34px 44px;
+}
+
+.interest-item:last-child {
+    margin-right: 0;
+}
+
+.interest-icon {
+    margin-bottom: 45px;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1054px) {
+    .interest-icon {
+        margin-bottom: 15px;
+    }
+
+    .interest-icon {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 991px) {
+    .interest-container {
+        flex-direction: column;
+    }
+
+    .interest-item {
+        width: auto;
+        max-width: 680px;
+        min-height: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .interest-item:last-child {
+        margin-right: auto;
+        margin-bottom: 0;
+    }
+}
+
+#guestform {
+    width: 100%;
+    max-width: 680px;
+    padding: 45px 45px 30px;
+    margin-bottom: 95px;
+  }
+  
+  /* .bg-guest-form {
+    
+  } */
+  
+  .form-group {
+    max-width: 355px;
+  }
+  
+  .form-control {
+    background: transparent;
+    border-color: #999999;
+    padding: 15px 10px;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+
+  .porto-btn-submit {
+    background-color: rgba(177, 185, 199, 0.7);
+    padding: 12px 30px;
+    font-size: 1.2rem;
+  }
+
+  .porto-btn-submit:focus
+  .porto-btn-submit:hover {
+      background-color: #a3c3f7;
+  }
+
+  .copyright-text {
+      margin-top: 80px;
+      margin-bottom: 30px;
+  }
