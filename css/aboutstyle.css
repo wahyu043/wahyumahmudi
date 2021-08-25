@@ -269,3 +269,11 @@ p {
       margin-top: 80px;
       margin-bottom: 30px;
   }
+
+  .swipeup {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  background: linear-gradient(to right, rgb(0, 51, 255), cyan) !important;
+  border: solid 1px silver;
+}

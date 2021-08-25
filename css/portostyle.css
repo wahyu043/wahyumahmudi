@@ -113,6 +113,14 @@ p {
     margin-right: auto;
 }
 
+.swipeup {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  background: linear-gradient(to right, blue, cyan) !important;
+  border: solid 1px silver;
+}
+
 @media only screen and (min-width: 450px) {
     .text-over {
         width: 100%;
