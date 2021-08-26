@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/aboutstyle.css" type="text/css">
+    <link rel="stylesheet" href="css/aos.css" type="text/css">
     <title>Home</title>
 </head>
 <body id="top">
@@ -39,6 +40,8 @@
             </div>
         </div>
     </div>
+    <!-- End of header section -->
+    <!-- Name Section -->
     <section id="porto">
         <div class="porto-header text-left">
             <div class="container-fluid">
@@ -54,14 +57,14 @@
             </div>
         </div>
     </section>
-<!-- End Header Section -->
+<!-- End Name Section -->
 
 <!-- Content Section -->
     <section id="about-me-content">
         <div class="container-fluid">
             <div class="row">
                 <!-- About Me Content  -->
-                    <div class="col-md-7 porto-about-me">
+                    <div class="col-md-7 porto-about-me" data-aos="fade-right">
                         <div class="porto-about-justify">
                             <h2 class="porto-about-tittle">About Me</h2>
                             <p class="pb-0"> Pribadi yang menyukai tantangan dan hal-hal baru menjadi motivasi saya agar berkembang menjadi lebih baik. Mudah
@@ -73,7 +76,7 @@
                         </div>
                     </div>
                     <!-- contact person section -->
-                    <div class="col-md-5">
+                    <div class="col-md-5" data-aos="fade-left">
                         <div class="porto-contact text-left">
                             <i class="fas fa-4x fa-address-card p-3 contact-icon"></i>
                             <p class="mb-0"> <i class="fa fa-envelope"></i> wahyu.mahmudi43@gmail.com </p>
@@ -89,7 +92,6 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-
                     <div class="xp-item">
                         <div class="xp-name text-black bg-name">
                             Digital Marketing (SEO Specialist - Internship)
@@ -105,7 +107,7 @@
                     </div>
 
                     <div class="xp-item">
-                        <div class="xp-name text-black bg-name">
+                        <div class="xp-name card bg-name">
                             Field Commercial Agent
                         </div>
                         <div class="xp-description">
@@ -184,21 +186,21 @@
     
     <!-- Interest Content -->
     <div class="container-fluid">
-        <div class="row">
+        <div class="row" id="feature">
             <div class="col-12">
                 <div class="interest-container">
-                    <div class="interest-item">
+                    <div class="interest-item" data-aos="fade-up">
                         <i class="fas fa-5x fa-code interest-icon"></i>
                         <p class="mb-0"> Sedang mendalami web design and programming dengan menggunakan bahasa pemrograman HTML, CSS dan Javascript
                             serta PHP dan MySql. Terbuka untuk sharing pengalaman belajar dan kerja sama di bidang web development.
                         </p>
                     </div>
-                    <div class="interest-item">
+                    <div class="interest-item" data-aos="fade-up">
                         <i class="fas fa-5x fa-user-graduate interest-icon"></i>
                         <p class="mb-0">Lulusan dari jurusan Bahasa Inggris di Universitas Ahmad Dahlan (UAD) Yogyakarta tahun 2009-2019.
                         </p>
                     </div>
-                    <div class="interest-item">
+                    <div class="interest-item" data-aos="fade-up">
                         <i class="fas fa-5x fa-compass interest-icon"></i>
                         <p class="mb-0">  Menyukai kegiatan diluar ruangan seperti olahraga streetworkout, hiking,
                             travelling juga menyukai fotografi karena tidak lengkap apabila suatu 
@@ -267,13 +269,18 @@
         </div>
     </div>
 <!-- End Footer Section -->
+<!-- jangan lupa menginisiasi AOS dalam melakukan pemasangan animate on scroll -->
 
     <a href="#top"><button class="swipeup btn btn-outline-neutral btn-round">&uArr;</button></a>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/main.js"></script>
+    <script text="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script text="text/javascript" src="js/main.js"></script>
+    <script text="text/javascript" src="js/aos.js"></script>
+    <script text="text/javascript">
+        AOS.init();
+    </script>
 </body>
 </html>
