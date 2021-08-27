@@ -1,0 +1,39 @@
+html {
+    scroll-behavior: auto;
+}
+
+body {
+    background-color: #d5ecfc;
+    background-image: url(../img/gradien1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Open Sans", Andalus, serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+img {
+    width: 32px;
+    height: 24px;
+
+}
+
+.main-msg {
+    margin: 250px;
+}
+
+.text-msg {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+  .swipeup {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  background: linear-gradient(to right, rgb(0, 51, 255), cyan) !important;
+  border: solid 1px silver;
+}
