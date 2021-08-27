@@ -89,6 +89,17 @@ p {
     margin-bottom: 80px;
 }
 
+.card {
+    height: 14rem;
+    width: 21rem;
+    margin: 20px;
+    background-color: #0099cc;
+}
+
+.text-item {
+    margin-top: 70px;
+}
+
 .xp-name {
     width: 21rem;
     height: 14rem;
@@ -97,6 +108,7 @@ p {
     font-size: 25px;
     padding: 70px 95px;
     display: flex;
+
 }
 
 .xp-periode {
@@ -104,8 +116,9 @@ p {
     font-size: medium;
 }
 
-.bg-name {
+.bg-primary {
     background-color: rgba(135, 206, 250, 0.5);
+    border: 1px;
 }
 
 .xp-description {
