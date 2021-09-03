@@ -94,6 +94,7 @@ p {
     width: 21rem;
     margin: 20px;
     background-color: #0099cc;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
 }
 
 .text-item {
@@ -199,6 +200,7 @@ p {
     margin-right: 35px;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 54px 34px 44px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
 }
 
 .interest-item:last-child {
