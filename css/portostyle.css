@@ -70,6 +70,7 @@ p {
     margin: auto;
 }
 .card {
+    margin-top: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6)
@@ -112,14 +113,14 @@ p {
 .card-5 img {
     margin: 15px auto;
     width: 193px;
-    height: 300;
+    height: 300px;
 }
 
-/* .card-6 img {
-    margin: 15px auto;
-    width: 193px;
-    height: 300;
-} */
+.card-6 img {
+    margin: 15px;
+    width: 450px;
+    height: 330px;
+}
 
 .card img {
     display: block;
@@ -141,9 +142,10 @@ p {
   transform: scale(1.05); 
 }
 
-@media only screen and (min-width: 450px) {
-    .text-over {
+@media screen and (min-width: 460px) {
+    .text-over .card-body {
         width: 100%;
+        padding: 15px;
     }
 }
 

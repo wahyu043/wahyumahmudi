@@ -39,7 +39,7 @@ a:hover {
     text-align: center;
 }
 
-.ilustrasi-text img {
+.ilustrasi-gambar img {
     width: 640px;
     height: 456px;
     margin-bottom: 25px;
@@ -65,15 +65,17 @@ a:hover {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
   .swipeup {
   position: fixed;
   bottom: 5%;
   right: 5%;
   background: linear-gradient(to right, rgb(0, 51, 255), cyan) !important;
   border: solid 1px silver;
+}
+
+@media only screen and (max-width: 450px) {
+  /* For mobile phones: */
+  .ilustrasi-gambar .panel-tengah .panel-kiri {
+    width: 100%;
+  }
 }
