@@ -109,7 +109,7 @@ td {
 
 @media only screen and (max-width: 450px) {
   /* For mobile phones: */
-  .ilustrasi-gambar .panel-tengah .panel-kiri {
+  .ilustrasi-gambar .panel-tengah .panel-kiri table {
     width: 100%;
   }
 }

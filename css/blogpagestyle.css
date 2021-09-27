@@ -32,6 +32,7 @@ a:hover {
     float: left;
     flex-direction: column;
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
+    margin-top: 25px;
 }
 
 .copyright-text {
@@ -72,7 +73,7 @@ a:hover {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-  .swipeup {
+.swipeup {
   position: fixed;
   bottom: 5%;
   right: 5%;

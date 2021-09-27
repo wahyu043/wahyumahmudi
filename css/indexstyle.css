@@ -17,10 +17,17 @@ body {
     margin-top: 250px;
     margin-left: 75px;
     margin-right: 250px;
-    margin-bottom: 100px;
+    margin-bottom: 250px;
 }
 
 .footer-text {
     color: honeydew;
-    margin: 150px auto;
+    margin-top: 250px auto;
+}
+
+@media only screen and (max-width: 450px) {
+  /* For mobile phones: */
+  .text-table .footer-text {
+    width: 100%;
+  }
 }
