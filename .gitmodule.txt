@@ -1,0 +1,3 @@
+[submodule "wahyumahmudi"]
+    path = wahyumahmudi
+    url = https://github.com/wahyu043/wahyumahmudi.git
