@@ -1,0 +1,21 @@
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Node.js (kalau nanti pakai)
+node_modules/
+
+# Backup editor
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Cache browser
+*.cache
+*.temp
+
+# VSCodium / VSCode setting lokal
+.vscode/

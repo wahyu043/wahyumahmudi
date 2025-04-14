@@ -1,26 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateVersion='2.5' expr:dir='data:blog.languageDirection' lang='id' xml:lang='id' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr' xmlns:og='http://ogp.me/ns#'>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
-    <meta expr: content='data: blog.pageName' property='og: title' />
-    <b: if cond='data: blog.postImageThumbnailUrl == data:blog.homepageUrl'>
-        <meta expr: content='img/semi_colon.jpg' property='og: image' />
-    </b: if>
-    <meta expr: content='data: blog.title' property='og: title' />
-    <meta expr: content='data: blog.canonicalUrl' property='og: url' />
-        <b: if cond='data: blog.metaDescription'>
-            <meta expr: content='data: blog.metaDescription' property='og: description' />
-        </b: if>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/indexstyle.css" type="text/css">
     <title>Introduction</title>
 </head>
+
 <body>
-<!-- Header Section -->
-<!-- <div class="container-fluid">
+    <!-- Header Section -->
+    <!-- <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
             <nav class="navbar navbar-expand-md bg-dark navbar-dark">
@@ -48,11 +41,11 @@
     </div>
 </div> -->
 
-<!-- End Header Section -->
+    <!-- End Header Section -->
 
-<!-- Main Section -->
-<section id="introduction">
-    <!-- <div class="container-fluid">
+    <!-- Main Section -->
+    <section id="introduction">
+        <!-- <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
                 <h1 class="text-intro">Hello There, I am Wahyu Mahmudiyanto</h1>
@@ -61,33 +54,30 @@
         </div>
         
     </div> -->
-    <div class="table-responsive22">
-        <table class="text-table">
-            <thead>
-                <tr>
-                    <th>Hi There, I am Wahyu Mahmudiyanto</th>
-                </tr>
-                <tr>
-                    <th>
-                        <a href="about.html" class="btn btn-primary"> Learn More</a>
-                    </th>
-                </tr>
-            </thead>
-        </table>
-    </div>
-</section>
-
-<!-- End of Main Section -->
-
-<!-- Footer Section -->
-    <div class="row">
-        <div class="col-12 footer-text">
-            <p class="text-center copyright-text">
-                Copyright &copy 2024 Wahyu Mahmudiyanto
-            </p>
+        <div class="table-responsive22">
+            <table class="text-table">
+                <thead>
+                    <tr>
+                        <th>Hi There, I am Wahyu Mahmudiyanto</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <a href="about.html" class="btn btn-primary"> Learn More</a>
+                        </th>
+                    </tr>
+                </thead>
+            </table>
         </div>
-    </div>
-<!-- End Footer Section -->
+    </section>
+
+    <!-- End of Main Section -->
+
+    <!-- Footer Section -->
+    <footer>
+        <p class="footer-text text-center copyright-text">© <span id="year"></span> Wahyu Mahmudiyanto. All rights
+            reserved.</p>
+    </footer>
+    <!-- End Footer Section -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -95,4 +85,5 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>
