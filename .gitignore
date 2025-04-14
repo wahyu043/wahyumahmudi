@@ -1,5 +1,8 @@
 # Mac OS
 .DS_Store
+.AppleDouble
+.LSOverride
+
 
 # Windows
 Thumbs.db
