@@ -67,6 +67,24 @@ p {
   text-align: center;
 }
 
+.social-icon {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #343a40; /* warna background */
+  color: white;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #007bff; /* warna hover (biru) */
+  color: white;
+}
+
 .porto-about-tittle {
   align-items: center;
   font-size: 35px;
