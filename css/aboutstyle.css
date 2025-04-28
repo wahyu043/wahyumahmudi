@@ -74,6 +74,7 @@ p {
 .xp-pos-desc {
   font-family: "Open Sans", Andalus, serif;
   font-size: 28px;
+  letter-spacing: 0.1rem;
 }
 
 .xp-periode {
