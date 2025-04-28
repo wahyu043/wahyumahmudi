@@ -13,215 +13,204 @@
 </head>
 
 <body id="top">
-    <nav> <!-- Header Section -->
+    <navbar class="sticky-top"> <!-- Header Section -->
+        <nav class="navbar navbar-expand-md rounded bg-dark navbar-dark">
+            <a class="navbar-brand" href="index.html">Hello World</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#xp-content">Experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galleries">Galleries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portofolio.html">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog/blogpage.html">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </navbar> <!-- End of header section -->
+
+    <!-- Profile Section -->
+    <section id="profile" class="py-4 px-5 mt-5 mb-4">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12 navbar-head">
-                    <nav class="navbar navbar-expand-md bg-dart navbar-light">
-                        <a class="navbar-brand" href="index.html">Hello World</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#collapsibleNavbar">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#about-me-contact">About Me</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#xp-content">Experiences</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#galleries">Galleries</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="portofolio.html">Portofolio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="blog/blogpage.html">Blog</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+                <div class="col-md-3 profile-pict img-fluid">
+                    <img src="img/profile1.jpg" alt="Avatar">
                 </div>
-            </div>
-        </div>
-    </nav> <!-- End of header section -->
-    <section id="porto"> <!-- Name Section -->
-        <div class="porto-header text-left">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-2 header-pict img-fluid">
-                        <img src="img/profile1.jpg" alt="Avatar">
-                    </div>
-                    <div class="col-md-10 header-name">
-                        <h2>Wahyu Mahmudiyanto</h2>
-                        <p>Hard Worker | Fast Leaner | Creatives | Optimist </p>
-                        <p class="mb-0"> <i class="fa fa-envelope"></i> <a
-                                href="mailto:wahyu.mahmudi43@gmail.com">wahyu.mahmudi43@gmail.com</a>
-                        </p>
-                        <p class="mb-0"> <i class="fab fa-whatsapp"></i> <a
-                                href="https://api.whatsapp.com/send?phone=6285848135173&text=Halo%20Wahyu!%20Saya%20ingin%20berdiskusi."
-                                target="_blank">+62 858 4813 5173</a>
-                        </p>
-                        <p class="mb-0"> <i class="fas fa-map-marker-alt"></i> Yogyakarta, Indonesia </p>
-                        <div class="porto-social mt-3">
-                            <a href="https://www.linkedin.com/in/wahyu-mahmudiyanto-5236341a4/" target="_blank"
-                                class="social-icon">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="https://github.com/wahyu043" target="_blank" class="social-icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="https://www.instagram.com/wahyu43" target="_blank" class="social-icon">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="https://www.facebook.com/mahmudi.wahyu/" target="_blank" class="social-icon">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                            <a href="https://x.com/WahyuMahmudi" target="_blank" class="social-icon">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </div>
-
+                <div class="col-md-9 pl-5">
+                    <h2>Wahyu Mahmudiyanto</h2>
+                    <p class="text-note">Hard Worker | Fast Leaner | Creatives | Optimist </p>
+                    <p class="mb-0"> <i class="fa fa-envelope"></i> <a
+                            href="mailto:wahyu.mahmudi43@gmail.com">wahyu.mahmudi43@gmail.com</a>
+                    </p>
+                    <p class="mb-0"> <i class="fab fa-whatsapp"></i> <a
+                            href="https://api.whatsapp.com/send?phone=6285848135173&text=Halo%20Wahyu!%20Saya%20ingin%20berdiskusi."
+                            target="_blank">+62 858 4813 5173</a>
+                    </p>
+                    <p class="mb-0"> <i class="fas fa-map-marker-alt"></i> Yogyakarta, Indonesia </p>
+                    <div class="porto-social mt-3">
+                        <a href="https://www.linkedin.com/in/wahyu-mahmudiyanto-5236341a4/" target="_blank"
+                            class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/wahyu043" target="_blank" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/wahyu43" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/mahmudi.wahyu/" target="_blank" class="social-icon">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://x.com/WahyuMahmudi" target="_blank" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </section> <!-- End Name Section -->
+    </section> <!-- End Profile Section -->
 
-    <section id="about-me-contact"> <!-- About Me Content  -->
+    <!-- About Me Section  -->
+    <section id="about-me" class="py-3 px-3 mt-2 mb-2">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12" data-aos="fade-right">
+                    <h2>About Me</h2>
+                    <p> Pria sederhana yang sedang menata ulang hidup dan masa depan. Belajar dari kehilangan, tumbuh
+                        dari tantangan. Saat ini sibuk ngulik dunia tulis-menulis dan belajar web development dari nol.
+                        Kadang bisa nulis banyak artikel dalam sehari, kadang cuma diam sambil mikir arah hidup.
+                    </p>
 
-                    <div class="porto-about-me" data-aos="fade-right">
-                        <div class="porto-about-justify">
-                            <h2 class="porto-about-tittle">About Me</h2>
-                            <p class="pb-0"> Pribadi yang menyukai tantangan dan hal-hal baru menjadi motivasi saya agar
-                                berkembang menjadi lebih baik. Mudah
-                                beradaptasi dengan lingkungan, terbiasa bekerja dengan komputer, dan berkomunikasi
-                                dengan
-                                baik adalah modal saya untuk
-                                siap bekerja di luar latar belakang pendidikan. </p>
+                    <p> Pecinta kopi manis yang sedang belajar hidup lebih sehat. Punya mimpi punya badan kuat, sehat,
+                        dan tetap bugar sampai tua. Lagi berproses buat ninggalin Mobile Legends pelan-pelan, ganti
+                        dengan olahraga kalistenik tipis-tipis.
+                    </p>
 
-                            <p>Meski sebagai lulusan Sarjana Pendidkan, saya memiliki minat dan konsen di bidang website
-                                development dengan mendalami desain dan pemrograman website (Website
-                                Design and Programming) menggunakan
-                                bahasa HTML, CSS, JavaScript, PHP beserta framework terkait. Serta berkemampuan membuat
-                                artikel SEO Friendly dengan target
-                                kata kunci yang telah ditentukan beserta optimasinya.</p>
-                        </div>
-                    </div>
+                    <p>
+                        Bukan berlatar belakang IT, tapi semangat belajar backend coding tetap jalan. Saat ini masih
+                        berjuang sendiri, ngoding tanpa CMS, dan ingin menjadi full stack-web develompment. Bukan yang
+                        paling jago, tapi selalu mau belajar.
+                    </p>
+
+                    <p>
+                        Santai tapi serius. Kadang overthinking, tapi tetap jalan terus.
+                    </p>
+
                 </div>
             </div>
         </div>
-    </section> <!-- End About Me Content  -->
+    </section> <!-- End About Me Section  -->
 
-    <section id="xp-content"> <!-- Experience Content -->
+    <!-- Experience Section -->
+    <section id="xp-content" class="py-3 px-3 mt-2 mb-2" data-aos="zoom-in">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <div class="xp-title">
-                        <h2>Experiences</h2>
-                    </div>
-                    <div class="xp-container">
-                        <div class="xp-item" data-aos="zoom-in">
-                            <div class="card-column">
-                                <div class="xp-card">
-                                    <h3 class="text-item">SEO Specialist - Kontrak</h3>
-                                </div>
-                            </div>
-                            <div class="xp-description">
-                                <h4 class="xp-text-black">
-                                    CV. Agro Sukses Abadi - Bantul Yogyakarta
-                                    <span class="xp-periode">(2023 August - Present)</span>
-                                </h4>
-                                <p class="mb-0">Merancang dan mengimplementasikan strategi digital marketing berbasis
-                                    SEO
-                                    dengan fokus pada riset kata kunci, pembuatan konten berkualitas, penguatan link
-                                    building, maintenance website, serta implementasi iklan (ads) dan kolaborasi dengan
-                                    tim
-                                    terkait untuk meningkatkan performa dan visibilitas website secara menyeluruh.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    <h2>Experiences</h2>
+                </div>
 
-
-                    <div class="xp-item" data-aos="zoom-in">
-                        <div class="card-column">
-                            <div class="xp-card">
-                                <h3 class="text-item">SEO Specialist - Kontrak</h3>
-                            </div>
-                        </div>
-                        <div class="xp-description">
-                            <h4 class="xp-text-black">
-                                CV. Rumah Mesin - Bantul Yogyakarta
-                                <span class="xp-periode">(2021 November to 2023 May)</span>
-                            </h4>
-                            <p class="mb-0">Melakukan riset kata kunci dan menerapkan teknik SEO on-page dan off-page.
-                                Saya Membuat konten yang dioptimalkan untuk SEO (artikel, blog, dll.). Serta
-                                berkomunikasi secara efektif dengan pemangku kepentingan untuk memberikan pembaruan dan
-                                wawasan tentang kinerja pemasaran digital.
-
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="xp-item" data-aos="zoom-in">
-                        <div class="card-column">
-                            <div class="xp-card">
-                                <h3 class="text-item">Digital Marketing (SEO Specialist - Internship)</h3>
-                            </div>
-                        </div>
-                        <div class="xp-description">
-                            <h4 class="xp-text-black">
-                                CV. Rumah Mesin - Bantul Yogyakarta
-                                <span class="xp-periode">(2021 March to 2021 August)</span>
-                            </h4>
-                            <p class="mb-0">Membuat artikel 2500 kata per-hari dengan target kata kunci yang telah
-                                ditentukan
-                                serta mengoptimasi artikel dengan plugin YOAST pada wordpress sebelum artikel tersebut
-                                diterbitkan.</p>
-                        </div>
-                    </div>
-
-                    <div class="xp-item" data-aos="zoom-in">
-                        <div class="card-column">
-                            <div class="xp-card">
-                                <h3 class="text-item">Field Commercial Agent</h3>
-                            </div>
-                        </div>
-                        <div class="xp-description">
-                            <h4 class="xp-text-black">
-                                Kios Bumbu Psr. Bantengan Yogyakarta
-                                <span class="xp-periode">(2020 March to 2020 November)</span>
-                            </h4>
-                            <p class="mb-0">Melayani penjualan bawang merah, bawang putih dan sembako,
-                                baik melalui pemesanan online maupun offline untuk wilayah
-                                Yogyakarta dan sekitarnya.</p>
-                        </div>
-                    </div>
-
-                    <div class="xp-item" data-aos="zoom-in">
-                        <div class="card-column">
-                            <div class="xp-card">
-                                <h3 class="text-item">Trip Advisor and Arrangement</h3>
-                            </div>
-                        </div>
-                        <div class="xp-description">
-                            <h4 class="xp-text-black">
-                                RaffTransport Yogyakarta
-                                <span class="xp-periode">(2017 November to 2020 February)</span>
-                            </h4>
-                            <p class="mb-0">Mengatur perjalanan wisata di Yogyakarta dan sekitarnya
-                                untuk para wisatawan domestik maupun wisatawan luar negeri.
-                                Dengan rekomemdasi paket wisata dari kami atau punya destinasi sendiri dari wisatawan.
-                            </p>
+                <div class="col-md-3"> <!-- xp description 1 --->
+                    <div class="card xp-card">
+                        <div class="card-body">
+                            <h3 class="xp-pos-desc">SEO Specialist - Karyawan</h3>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-md-9">
+                    <h4 class="xp-desc-black">CV. Agro Sukses Abadi - Bantul Yogyakarta</h4>
+                    <span class="xp-periode">(2023 August - Present)</span>
+                    <p class="mb-0">Merancang dan mengimplementasikan strategi digital marketing berbasis
+                        SEO
+                        dengan fokus pada riset kata kunci, pembuatan konten berkualitas, penguatan link
+                        building, maintenance website, serta implementasi iklan (ads) dan kolaborasi dengan
+                        tim
+                        terkait untuk meningkatkan performa dan visibilitas website secara menyeluruh.
+                    </p>
+                </div> <!-- end xp description 1 --->
+
+                <div class="col-md-3"> <!-- xp description 2 --->
+                    <div class="card xp-card">
+                        <div class="card-body">
+                            <h3>SEO Specialist - Kontrak</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <h4 class="xp-desc-black">CV. Rumah Mesin - Bantul Yogyakarta</h4>
+                    <span class="xp-periode">(2021 March to 2021 August)</span>
+                    <p class="mb-0">Melakukan riset kata kunci dan menerapkan teknik SEO on-page dan off-page.
+                        Saya Membuat konten yang dioptimalkan untuk SEO (artikel, blog, dll.). Serta
+                        berkomunikasi secara efektif dengan pemangku kepentingan untuk memberikan pembaruan dan
+                        wawasan tentang kinerja pemasaran digital.
+                    </p>
+                </div> <!-- end xp description 2 --->
+
+                <div class="col-md-3"> <!-- xp description 3 --->
+                    <div class="card xp-card">
+                        <div class="card-body">
+                            <h3>SEO Specialist - Internship</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <h4 class="xp-desc-black">CV. Rumah Mesin - Bantul Yogyakarta</h4>
+                    <span class="xp-periode">(2021 March to 2021 August)</span>
+                    <p class="mb-0">
+                        Membuat artikel 2500 kata per-hari dengan target kata kunci yang telah
+                        ditentukan serta mengoptimasi artikel dengan plugin YOAST pada wordpress sebelum artikel
+                        tersebut
+                        diterbitkan.
+                    </p>
+                </div> <!-- end xp description 3 --->
+
+                <div class="col-md-3"> <!-- xp description 4 --->
+                    <div class="card xp-card">
+                        <div class="card-body">
+                            <h3>Commercial Agent</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <h4 class="xp-desc-black">Kios Bumbu Psr. Bantengan Yogyakarta</h4>
+                    <span class="xp-periode">(2020 March to 2020 November)</span>
+                    <p class="mb-0">Melayani penjualan bawang merah, bawang putih dan sembako,
+                        baik melalui pemesanan online maupun offline untuk wilayah
+                        Yogyakarta dan sekitarnya.
+                    </p>
+                </div> <!-- end xp description 4 --->
+
+                <div class="col-md-3"> <!-- xp description 5 --->
+                    <div class="card xp-card">
+                        <div class="card-body">
+                            <h3>Trip Advisor and Driver</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <h4 class="xp-desc-black">RaffTransport Yogyakarta</h4>
+                    <span class="xp-periode">(2023 August - Present)</span>
+                    <p class="mb-0">Mengatur perjalanan wisata di Yogyakarta dan sekitarnya untuk para wisatawan
+                        domestik maupun wisatawan luar negeri. Dengan rekomemdasi paket wisata dari kami atau punya
+                        destinasi sendiri dari wisatawan.
+                    </p>
+                </div> <!-- end xp description 5 --->
             </div>
         </div>
     </section> <!-- End Experience Content -->

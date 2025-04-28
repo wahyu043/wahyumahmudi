@@ -11,13 +11,13 @@ body {
   font-weight: 400;
 }
 
+h2 {
+  text-align: left;
+}
+
 a,
 button {
   transition: all 0.3s ease;
-}
-
-a:hover {
-  text-decoration: red;
 }
 
 p {
@@ -25,46 +25,19 @@ p {
   text-align: justify;
 }
 
-#about-me-content {
-  background-color: rgba(255, 245, 237, 0.5);
-}
-/* Content Section */
 #xp-content {
-  padding-top: 80px;
   position: relative;
   display: flex;
   text-align: justify;
   overflow-x: hidden;
 }
 
-.navbar-head {
-  background-color: transparent;
-  position: center;
-}
+/* Profile Section */
 
-.header-pict img {
-  background-color: transparent;
+.profile-pict img {
   width: 100%;
   max-width: 100%;
   height: auto;
-}
-
-.header-name {
-  padding-left: 20px;
-}
-
-.porto-header {
-  background-color: transparent;
-  margin-top: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 54px 34px 44px;
-}
-
-.contact-icon {
-  position: relative;
-  display: inline-block;
-  text-align: center;
 }
 
 .social-icon {
@@ -85,69 +58,22 @@ p {
   color: white;
 }
 
-.porto-about-tittle {
-  align-items: center;
-  font-size: 35px;
-}
+/* About Me Section */
 
-.porto-contact {
-  text-align: left;
-  background-color: transparent;
-}
-.porto-about-me {
-  background-color: transparent;
-  align-items: justify;
-}
-
-/* Portofolio Section */
-
-.xp-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 0 15px;
-}
-
-.xp-title {
-  text-align: left;
-  font-size: 35px;
-}
-
-.xp-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
-  padding: 15px;
-  box-sizing: border-box;
-}
+/* Experience Section */
 
 .xp-card {
-  height: 250px;
-  width: 250px;
-  max-width: 336px;
-  margin: 20px;
+  border-radius: 0;
   background-color: #0099cc;
+  padding: 15px;
+  width: 240px;
+  height: 160px;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
 }
 
-.text-item {
-  margin-top: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 100%;
-}
-
-.xp-name {
-  width: 100%;
-  height: auto;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  font-size: 25px;
-  padding: 20px;
-  display: flex;
+.xp-pos-desc {
+  font-family: "Open Sans", Andalus, serif;
+  font-size: 28px;
 }
 
 .xp-periode {
@@ -158,11 +84,6 @@ p {
 .bg-primary {
   background-color: rgba(135, 206, 250, 0.5);
   border: 1px;
-}
-
-.xp-description {
-  width: calc(100% - 330px);
-  padding: 20px 45px;
 }
 
 /* Project Section */
