@@ -1,7 +1,7 @@
 /* First Developing My Porto Project */
 
 html {
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -150,6 +150,24 @@ p {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* Footer Section */
+
+.copyright-text {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+/* Swipe-up Button */
+
+.swipeup {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  background: linear-gradient(to right, rgb(0, 51, 255), cyan) !important;
+  border: solid 1px silver;
+}
+
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
@@ -199,50 +217,7 @@ p {
   cursor: pointer;
 }
 
-@media (max-width: 1054px) {
-  .interest-icon {
-    margin-bottom: 15px;
-  }
-
-  .interest-icon {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 991px) {
-  .interest-container {
-    flex-direction: column;
-  }
-
-  .interest-item {
-    width: auto;
-    max-width: 680px;
-    min-height: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-  }
-
-  .interest-item:last-child {
-    margin-right: auto;
-    margin-bottom: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .xp-container,
-  .xp-item {
-    padding: 10px;
-  }
-
-  .xp-description {
-    padding: 10px 0;
-  }
-  .gallery-column {
-    width: 100%;
-    float: none;
-  }
-}
+/* Mobile Responsive */
 
 @media (max-width: 730px) {
   .xp-card,
@@ -280,31 +255,47 @@ p {
   }
 }
 
-.porto-btn-submit {
-  background-color: rgba(177, 185, 199, 0.7);
-  padding: 12px 30px;
-  font-size: 1.2rem;
+@media (max-width: 768px) {
+  .xp-container,
+  .xp-item {
+    padding: 10px;
+  }
+
+  .xp-description {
+    padding: 10px 0;
+  }
+  .gallery-column {
+    width: 100%;
+    float: none;
+  }
 }
 
-.porto-btn-submit:focus .porto-btn-submit:hover {
-  background-color: #a3c3f7;
+@media (max-width: 991px) {
+  .interest-container {
+    flex-direction: column;
+  }
+
+  .interest-item {
+    width: auto;
+    max-width: 680px;
+    min-height: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .interest-item:last-child {
+    margin-right: auto;
+    margin-bottom: 0;
+  }
 }
 
-.copyright-text {
-  margin-top: 80px;
-  margin-bottom: 30px;
-}
+@media (max-width: 1054px) {
+  .interest-icon {
+    margin-bottom: 15px;
+  }
 
-.swipeup {
-  position: fixed;
-  bottom: 5%;
-  right: 5%;
-  background: linear-gradient(to right, rgb(0, 51, 255), cyan) !important;
-  border: solid 1px silver;
-}
-
-.zoom:hover {
-  -ms-transform: scale(1.05); /* IE 9 */
-  -webkit-transform: scale(1.05); /* Safari 3-8 */
-  transform: scale(1.05);
+  .interest-icon {
+    flex-direction: column;
+  }
 }
