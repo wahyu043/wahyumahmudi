@@ -14,15 +14,19 @@
         content="Kenali lebih dekat dengan Wahyu Mahmudiyanto, SEO Specialist yang juga mendalami dunia web development.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://wahyu043.github.io/wahyumahmudi/about.html">
+    <!-- CSS Bootstrap 4 -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <!-- Fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!-- Own Style -->
     <link rel="stylesheet" href="css/aboutstyle.css" type="text/css">
+    <!-- Animation on Scroll CSS -->
     <link rel="stylesheet" href="css/aos.css" type="text/css">
     <title>Tentang Saya - Wahyu Mahmudiyanto</title>
 </head>
 
 <body id="top">
-    <navbar class="sticky-top"> <!-- Header Section -->
+    <header class="sticky-top"> <!-- Header Section -->
         <nav class="navbar navbar-expand-md rounded bg-dark navbar-dark">
             <a class="navbar-brand" href="index.html">Hello World</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -48,7 +52,7 @@
                 </ul>
             </div>
         </nav>
-    </navbar> <!-- End of header section -->
+    </header> <!-- End of header section -->
 
 
     <section id="profile" class="pt-0 px-3 pt-md-4 mt-5 mb-5"> <!-- Profile Section -->
@@ -354,17 +358,24 @@
     </footer>
     <!-- End Footer Section -->
 
+    <!-- Button swipe up -->
+    <a href="#top" class="swipeup btn btn-outline-neutral btn-round">&uArr;</a>
+
     <!-- jangan lupa menginisiasi AOS dalam melakukan pemasangan animate on scroll -->
 
-    <!-- Button swipe up --> <a href="#top" class="swipeup btn btn-outline-neutral btn-round">&uArr;</a>
-
-    <script text="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-    <script text="text/javascript" src="js/main.js"></script>
-    <script text="text/javascript" src="js/aos.js"></script>
-    <script text="text/javascript">
+    <!-- Bootstrap 4 JS -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- Own JS -->
+    <script src="js/main.js"></script>
+    <!-- Animation on Scroll JS -->
+    <script src="js/aos.js"></script>
+    <script>
         AOS.init();
     </script>
 
 </body>
 
 </html>
+
+

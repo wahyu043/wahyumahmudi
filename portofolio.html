@@ -3,199 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- CSS Bootstrap 4 -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <!-- Fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Own Style -->
     <link rel="stylesheet" href="css/portostyle.css" type="text/css">
+     <!-- Animation on Scroll CSS -->
+     <link rel="stylesheet" href="css/aos.css" type="text/css">
     <title>Portofolio</title>
 </head>
+
 <body id="top">
-<!-- Header Section -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar navbar-expand-md bg-tranpsarent navbar-light">
-                    <a class="navbar-brand" href="index.html">Hello World</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About Me</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portofolio.html">Portofolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="blog/blogpage.html">Blog</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+    <section>
+        <header class="sticky-top"> <!-- Header Section -->
+            <nav class="navbar navbar-expand-md rounded bg-dark navbar-dark">
+                <a class="navbar-brand" href="index.html">Hello World</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portofolio.html">Portofolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog/blogpage.html">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header> <!-- End of header section -->
+
+    <section id="section-header" class="py-3"> <!-- Header section -->
+        <div class="container">
+            <h1 class="text-center mb-4">Selamat Datang di Ruang Kreasi</h1>
+            <div class="card img-fluid">
+                <img class="card-img-top" src="img/galeri6.jpg" alt="cover-image" style="width: 100%;">
+                <div class="card-img-overlay d-flex align-items-start">
+                    <p class="text-over text-black mt-2">"Dan telah Kami jadikan di Bumi ini gunung-gunung yang kokoh supaya Bumi itu (tidak) guncang bersama mereka dan telah
+                        Kami jadikan (pula) di Bumi itu jalan-jalan yang luas agar mereka mendapat petunjuk" <em>(QS. Al-Anbiya' ayat 31)</em></p>
+                </div>
             </div>
         </div>
-    </div>
-<!-- End Header Section -->
+    </section> <!-- End of header section -->
 
-<!-- Portofolio Section -->
-    <section id="porto-content">
-        <!-- Card 0 Header -->
-        <div class="container-fluid">
+    <section id="section-coredraw" class="py-3"> <!-- Section Corel-Draw -->
+        <div class="container">
             <div class="row">
-                <div class="col-md-12" id="card-header">
-                    <div class="container">
-                        <h1>Selamat Datang di Ruang Kreasi</h1>
-                        <div class="card img-fluid">
-                            <img class="card-img-top" src="img/galeri6.jpg" alt="Cover image" style="width:100%">
-                            <div class="card-img-overlay">
-                                <p class="text-over">"Dan telah Kami jadikan di Bumi ini gunung-gunung yang kokoh supaya Bumi itu (tidak) guncang bersama mereka dan telah
-                                Kami jadikan (pula) di Bumi itu jalan-jalan yang luas agar mereka mendapat petunjuk" (QS. Al-Anbiya' ayat 31)</p>
-                            </div>
+                <div class="col-md-6">
+                    <h2>Berkreasi Menggunakan Corel Draw</h2>
+                    <div class="card" data-aos="fade-up" data-aos-duration="500">
+                        <div class="card-header">
+                            <h3>Membuat Stiker Kelas</h3>
+                        </div>
+                        <div class="card-body">
+                            <img src="img/stiker.jpg" alt="stiker" class="img-fluid">
+                        </div>
+                        <div class="card-footer">
+                            <p>Berbekal belajar bersama teman kuliah... saya dapat berkreasi sendiri menggunakan aplikasi Corel-Draw yaitu membuat stiker kelas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mb-5">Kreasi Kedua</h2>
+                    <div class="card" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card-header">
+                            <h3>Membuat Poster Peringatan Belasungkawa</h3>
+                        </div>
+                        <div class="card-body">
+                            <img src="img/pengetan1.jpg" alt="Pengetan" class="img-fluid">
+                        </div>
+                        <div class="card-footer">
+                            <p>Kreasi kedua ini atas permintaan tetangga, dalam rangka mengenang atas
+                                meninggalnya suami dan ayah tercinta. Saya diminta untuk membuat kartu ucapan sederhana untuk
+                                dicetak di kertas ukuran B5.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- End of Card Header -->
-        <section id="section-item">
-                <!-- Card 1 (portofolio content) -->
-                <div class="container-fluid">
-                    <div class="row" id="top-card">
-                        <div class="col-md-6 card-1">
-                            <div class="container">
-                                <h2>Berkreasi Menggunakan Corel Draw</h2>
-                                <div class="card zoom">
-                                    <div class="card-header"> Membuat Stiker Kelas </div>
-                                    <div class="card-body card-1 img">
-                                        <img src="img/stiker.jpg" alt="Stiker" style="width:100%;">
-                                    </div>
-                                    <div class="card-footer"> <p>Berbekal belajar bersama teman kuliah dengan
-                                    melihat proses pembuatan logo pada desain kaos mereka
-                                    saya dapat berkreasi sendiri menggunakan aplikasi Corel-Draw yaitu membuat stiker kelas.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of card 1 -->
-                        <!-- Card 2 (portofolio content) -->
-                        <div class="col-md-6 card-2">
-                            <div class="container">
-                                <h2>Kreasi Kedua</h2>
-                                <div class="card zoom">
-                                    <div class="card-header">Membuat Poster Peringatan Belasungkawa</div>
-                                    <div class="card-body card-2 img">
-                                        <img src="img/pengetan1.jpg" alt="Pengetan">
-                                    </div>
-                                    <div class="card-footer"> <p>Kreasi kedua ini atas permintaan tetangga, dalam rangka mengenang atas
-                                    meninggalnya suami dan ayah tercinta. Saya diminta untuk membuat kartu ucapan sederhana untuk
-                                    dicetak di kertas ukuran B5.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of card 2 -->
-                <!-- Card 3 (portofolio content) -->
-                <div class="container-fluid">
-                    <div class="row" id="last-card">
-                        <div class="col-md-4 card-3">
-                            <div class="container">
-                                <h2>Eksplorasi Kamera</h2>
-                                <div class="card zoom">
-                                    <div class="card-header">Parangtritis di Awal Tahun</div>
-                                    <div class="card-body">
-                                        <img class="img-fluid" src="img/galeri5.jpg" alt="Eksplor">
-                                    </div>
-                                    <div class="card-footer"><p>Foto ini diambil di Pantai Parangtritis. Belajar fotografi secara otodidak
-                                    bersama teman-teman memang menyenangkan. Mencoba eksplorasi komposisi dan melewati trial dan error
-                                    untuk mendapatkan moment yang tak terlupakan.</p> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of card 3 -->
-                        <!-- Card 4 (portofolio content) -->
-                        <div class="col-md-4 card-4">
-                            <div class="container">
-                                <h2>&nbsp;</h2>
-                                <div class="card zoom">
-                                    <div class="card-header">Beautiful in Glamour</div>
-                                    <div class="card-body">
-                                        <img src="img/galeri1.jpg" alt="beauty">
-                                    </div>
-                                    <div class="card-footer"> <p>Bersama komunitas fotografi Temanggung mengadakan hunting fotografi
-                                    serta mempromosikan desain batik dari Batik Laras Tirto Temanggung.</p> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of card 4 -->
-                        <!-- Card 5 (portofolio content) -->
-                        <div class="col-md-4 card-5">
-                            <div class="container">
-                                <h2>&nbsp;</h2>
-                                <div class="card zoom">
-                                    <div class="card-header">Sunset Hunter</div>
-                                    <div class="card-body">
-                                        <img src="img/galeri7.jpg" alt="hunter">
-                                    </div>
-                                    <div class="card-footer"> <p>Bicara tentang pasir dipantai atau ombak laut,
-                                    menarik memang tetapi tak ada yang melebihi khidmadnya menyaksikan
-                                    matahari terbenam, semuanya terasa amat sepi.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of card 5 -->
-                <!-- Card 6 (portofolio content) -->
-                <div class="container">
-                    <div class="row">
-                        <h2>Keyphrase untuk Penulisan SEO</h2>
-                        <div class="col-md-12 card-6">
-                            <div class="container">
-                                <div class="card zoom">
-                                    <div class="card-header">Hasil Penulisan dengan Keyphrase SEO Friendly ON-Page dan OFF-Page</div>
-                                    <div class="card-body">
-                                        <img src="img/hasil-serp2.jpg" alt="karya tulis" style="width:100%;">
-                                    </div>
-                                    <div class="card-footer">
-                                        <p>Pembuatan artikel 2000 kata untuk diposting sebagai ON-Page (Web Utama) dan 500 kata untuk diposting pada OFF-Page (Back
-                                        Link). Dengan YOAST Plugin
-                                        sehingga memudahkan dalam penyusunan struktur artikel agar mudah dibaca audience dan mesin pencari.
-                                        Salah satu keyphrase dapat menempati halaman pertama pada mesin pencari.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of card 6 -->
-                <!-- End Portofolio Section -->
-        </section>
-<br><br>
+        </div> 
+    </section> <!-- End of Section Corel-Draw -->
 
-<!-- Footer Section -->
+    <section id="section-foto1" class="py-3">  <!-- Kreasi Foto -->
+        <div class="container">
+            <div class="row">
+                <!-- Card-3 -->
+                <div class="col-md-4">
+                    <h2>Eksplorasi Kamera</h2>
+                    <div class="card" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="card-header">Parangtritis di Awal Tahun</div>
+                        <div class="card-body">
+                            <img src="img/galeri5.jpg" alt="Pantai Parangtritis" class="img-fluid">
+                        </div>
+                        <div class="card-footer">
+                            <p>Foto ini diambil di Pantai Parangtritis. Belajar fotografi secara otodidak
+                                bersama teman-teman memang menyenangkan. Mencoba eksplorasi komposisi dan melewati trial dan error
+                                untuk mendapatkan moment yang tak terlupakan.</p>
+                        </div>
+                    </div>
+                </div> <!-- End of Card 3 -->
 
-    <div class="row">
-        <div class="col-12">
-            <p class="text-center copyright-text">
-                Copyright &copy 2024 Wahyu Mahmudiyanto
-            </p>
+                <!-- Card 4 -->
+                <div class="col-md-4">
+                    <h2 class="invisible-heading d-none d-md-block">&nbsp;</h2> <!-- Kosong biar rata -->
+                    <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="card-header">Beautiful in Glamour</div>
+                        <div class="card-body">
+                            <img src="img/galeri1.jpg" alt="Beautiful" class="img-fluid">
+                        </div>
+                        <div class="card-footer">
+                            <p>Bersama komunitas fotografi Temanggung mengadakan hunting fotografi
+                                serta mempromosikan desain batik dari Batik Laras Tirto Temanggung.</p>
+                        </div>
+                    </div>
+                </div> <!-- End of Card 4 -->
+
+                <!-- Card 5 -->
+                <div class="col-md-4">
+                    <h2 class="invisible-heading d-none d-md-block">&nbsp;</h2> <!-- Kosong biar rata -->
+                    <div class="card" data-aos="fade-up" data-aos-duration="2500">
+                        <div class="card-header">Sunset Hunter</div>
+                        <div class="card-body">
+                            <img src="img/galeri7.jpg" alt="Sunset" class="img-fluid">
+                        </div>
+                        <div class="card-footer">
+                            <p>Bicara tentang pasir dipantai atau ombak laut,
+                                menarik memang tetapi tak ada yang melebihi khidmadnya menyaksikan
+                                matahari terbenam, semuanya terasa amat sepi.</p>
+                        </div>
+                    </div>
+                </div> <!-- End of Card 5 -->
+            </div>
         </div>
-    </div>
-<!-- End Footer Section -->
+    </section> <!-- End of Kreasi Foto -->
+
+    <section id="section-SEO" class="py-3"> <!-- Penulisan SEO -->
+        <div class="container">
+            <h2 class="mb-2">Contoh Artikel SEO yang Menempati Halaman Pertama Google</h2>
+            <div class="card" data-aos="fade-up" data-aos-duration="1500">
+                <div class="card-header">
+                    Hasil Penulisan dengan Keyphrase SEO Friendly ON-Page dan OFF-Page
+                </div>
+                <div class="card-body">
+                    <img src="img/hasil-serp2.jpg" alt="Hasil SERP penulisan artikel" class="img-fluid">
+                </div>
+                <div class="card-footer">
+                    <p>Pembuatan artikel 2000 kata untuk diposting sebagai ON-Page (Web Utama) dan 500 kata untuk diposting pada OFF-Page (Back
+                        Link). Dengan YOAST Plugin
+                        sehingga memudahkan dalam penyusunan struktur artikel agar mudah dibaca audience dan mesin pencari.
+                        Salah satu keyphrase dapat menempati halaman pertama pada mesin pencari.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section> <!-- End of Penulisan SEO -->
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p class="text-center copyright-text">© <span id="year"></span> Wahyu Mahmudiyanto. All rights reserved.</p>
+    </footer>
+    <!-- End Footer Section -->
 
     <a href="#top"><button class="swipeup btn btn-outline-neutral btn-round">&uArr;</button></a>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- jangan lupa menginisiasi AOS dalam melakukan pemasangan animate on scroll -->
+
+    <!-- Bootstrap 4 JS -->
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- Own JS -->
     <script src="js/main.js"></script>
+    <!-- Animation on Scroll JS -->
     <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
