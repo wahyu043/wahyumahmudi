@@ -1,5 +1,4 @@
-User-agent: *
-Allow: /
-
 Sitemap: https://wahyu043.github.io/wahyumahmudi/sitemap_index.xml
-Sitemap: https://wahyu043.github.io/wahyumahmudi/sitemap.html
+
+User-agent: *
+Disallow:
