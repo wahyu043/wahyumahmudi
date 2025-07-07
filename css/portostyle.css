@@ -31,7 +31,7 @@ h2 {
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    display: auto;
+    display: block;
     resize: both;
     margin: auto;
     height: auto;
@@ -51,7 +51,7 @@ p {
 }
 
 .card-body {
-    padding: 100px auto;
+    padding: 1.5rem 1rem;
     transition: transform .0.1s;
 }
 
