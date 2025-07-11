@@ -159,13 +159,13 @@ p {
 }
 
 /* Swipe-up Button */
-
 .swipeup {
   position: fixed;
-  bottom: 5%;
-  right: 5%;
+  bottom: 30px;
+  right: 20px;
   background: linear-gradient(to right, rgb(0, 51, 255), cyan) !important;
   border: solid 1px silver;
+  z-index: 999;
 }
 
 /* The grid: Four equal columns that floats next to each other */

@@ -27,17 +27,18 @@ a:hover {
 /* Swipe Button Style */
 .swipeup {
   position: fixed;
-  bottom: 5%;
-  right: 5%;
+  bottom: 30px;
+  right: 20px;
   background: linear-gradient(to right, rgb(0, 51, 255), cyan) !important;
   border: solid 1px silver;
+  z-index: 999;
 }
 
 @media only screen and (max-width: 450px) {
   /* For mobile phones: */
-    .card {
-        flex-direction: column;
-    }
+  .card {
+    flex-direction: column;
+  }
 
   .main-msg .text-msg {
     width: 100%;
