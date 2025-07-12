@@ -1,13 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
 /* Background utama */
 body {
   background: url(../img/main-bg.jpg) no-repeat center center fixed;
   background-size: cover;
   position: relative;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
 }
 
 /* Overlay gelap */
@@ -22,19 +28,27 @@ body::before {
   z-index: 0; /* tetap di belakang semua konten */
 }
 
+/* Wrapper seluruh halaman */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 /* Bagian konten utama */
 #introduction {
-  flex-grow: 1;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   position: relative;
   z-index: 1; /* Pastikan teks di atas background hitam */
+  min-height: 100vh;
 }
 
 /* Styling teks utama */
-.text-table {
+.header-intro {
   font-size: 25px;
   color: honeydew;
   font-weight: lighter;
@@ -43,30 +57,15 @@ body::before {
   padding: 20px;
 }
 
-/* Footer */
-footer {
-  height: 50px;
-  color: honeydew;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  z-index: 1;
-}
-
 /* Responsive untuk layar kecil (mobile) */
 @media only screen and (max-width: 450px) {
   #introduction {
     min-height: calc(100vh - 50px); /* Supaya tetap penuh walau ada footer */
   }
 
-  .text-table {
-    font-size: 20px; /* Sedikit dikecilkan biar nyaman di mobile */
+  .header-intro {
+    font-size: 20px;
     width: 100%;
   }
 
-  .table-responsive22 {
-    width: 100%;
-    overflow-x: auto;
-  }
 }
