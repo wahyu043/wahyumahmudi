@@ -24,6 +24,14 @@ p {
     text-align: justify;
 }
 
+blockquote {
+    margin: 40px 40px 40px 40px;
+}
+
+figcaption {
+    margin-top: 20px;
+}
+
 /* Main Content */
 .headline-text {
     font-weight: bold;
@@ -72,15 +80,19 @@ p {
     }
 
     h1 {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     h2 {
-        font-size: 16px;
+        font-size: 24px;
         margin: 2rem 0rem 2rem 0rem;
     }
 
-    p {
-        font-size: 12px;
+    h3 {
+        font-size: 22px;
+    }
+
+    p li {
+        font-size: 16px;
     }
 }

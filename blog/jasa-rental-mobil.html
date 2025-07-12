@@ -53,11 +53,11 @@
         </nav>
     </header> <!-- End of header section -->
 
-    <!-- Main Content -->
-    <div class="container mt-4 mb-5">
+    
+    <div class="container mt-4 mb-5"> <!-- Main Content -->
         <div class="row">
 
-            <!-- Artikel Utama -->
+            <!-- Main Article -->
             <main class="col-md-8">
                 <article>
                     <header>
@@ -65,7 +65,7 @@
                             Mobil RaffTransport Yogyakarta</h1>
                         <figure class="ilustrasi-gambar text-center">
                             <img class="img-fluid" src="../img/cover1.jpg" alt="Jasa Rental Mobil">
-                            <figcaption>Tugu Golong Gilig - Yogyakarta</figcaption>
+                            <figcaption class="mt-2">Gbr. Tugu Golong Gilig - Yogyakarta</figcaption>
                         </figure>
                     </header>
 
@@ -100,9 +100,9 @@
                             calon-calon
                             cendekiawan dan akademisi menimba ilmu agar berguna untuk masa depan mereka kelak.</p>
 
-                        <p>Baca Juga : <a
+                        <blockquote>Baca Juga : <a
                                 href="https://rafftransport.com/experiencing-the-underground-river-at-pindul-cave.html"
-                                target="_blank">Experiencing The Underground River At Pindul Cave</a></p>
+                                target="_blank">Experiencing The Underground River At Pindul Cave</a></blockquote>
                     </section>
 
                     <section>
@@ -272,11 +272,9 @@
             <div class="d-block d-md-none mt-5">
                 <h5 class="mb-3">Baca Artikel Menarik Lainnya:</h5>
                 <p><a href="../blog/oven-kopra-putih.html">Pengering Kopra Dengan Oven Kopra Putih</a></p>
-            </div>
+            </div> <!-- End of Main Article -->
   
-
-            <!-- Right Panel -->
-            <aside class="col-md-4 d-none d-md-block">
+            <aside class="col-md-4 d-none d-md-block"> <!-- Right Panel -->
                 <div class="sticky-top sidebar-wrapper p-3 mb-4">
                     <img class="img-panel img-fluid mb-3" src="../img/penbook.jpg" alt="Pena&Buku">
                     <h4 class="mb-5">Karya Tulisan Menarik Lainnya:</h4>
@@ -293,24 +291,22 @@
                             Puyuh Pengolah Makanan Ringan Terkini</a></li>
                     </ul>
                 </div>    
-            </aside>
+            </aside> <!-- End of Right Panel -->
         </div>
-    </div>
+    </div> <!-- End of Main Content -->
 
-    <a href="#top"><button class="swipeup btn btn-outline-neutral btn-round">&uArr;</button></a>
+    <a href="#top"><button class="swipeup btn btn-outline-neutral btn-round" aria-label="Kembali Keatas">&uArr;</button></a>
 
     <!-- Footer Section -->
-    <div class="row">
-        <div class="col-12">
-            <p class="text-center copyright-text">
-                Copyright &copy; 2024 Wahyu Mahmudiyanto
-            </p>
-        </div>
-    </div>
+    <footer>
+        <p class="text-center copyright-text">© <span id="year"></span> Wahyu Mahmudiyanto. All rights reserved.</p>
+    </footer>
     <!-- End Footer Section -->
 
     <!-- Bootstrap JS -->
     <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <!-- Own JS -->
     <script src="../js/main.js"></script>
    
 
