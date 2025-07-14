@@ -9,13 +9,6 @@ body {
     font-weight: 400;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    background: transparent;
-    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
-}
-
 a:hover {
     color: rgb(82, 82, 160);
 }
@@ -41,7 +34,9 @@ figcaption {
 }
 
 .ilustrasi-gambar img {
-    
+    max-width: 100%;
+    height: auto;
+    background: transparent;
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
 }
 
@@ -53,6 +48,7 @@ figcaption {
 
 .img-panel {
     border-radius: 25px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
 }
 
 
