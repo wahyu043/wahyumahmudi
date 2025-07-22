@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <!-- Meta Tag -->
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Deskripsi singkat halaman, bisa diganti sesuai kebutuhan.">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Judul Halaman Artikel">
+    <meta property="og:description" content="Deskripsi Open Graph, untuk tampilan share sosial media.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="#">
+    <meta property="og:image" content="#">
+    <meta property="og:locale" content="id_ID">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="../css/blogstyle.css">
+    <title>Judul Halaman | Portofolio</title>
+</head>
+
+<body id="top">
+
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-md rounded bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">Hello World</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-4 mb-5">
+        <div class="row">
+            <!-- Article -->
+            <main class="col-md-8">
+                <article>
+                    <header>
+                        <h1 class="headline-text">Judul Artikel di Sini</h1>
+                        <figure class="ilustrasi-gambar text-center">
+                            <img class="img-fluid" src="#" alt="gambar utama artikel">
+                            <figcaption>Caption gambar utama</figcaption>
+                        </figure>
+                    </header>
+
+                    <!-- Section bisa dikopi/ganti sesuai kebutuhan -->
+                    <section>
+                        <h2>Judul Section 1</h2>
+                        <p>Isi paragraf. <strong>Contoh penebalan.</strong> Bisa tambahkan list, table, dsb.</p>
+                        <h3>Subjudul Section</h3>
+                        <ul>
+                            <li>Contoh list item 1</li>
+                            <li>Contoh list item 2</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Judul Section 2</h2>
+                        <p>Paragraf isi konten.</p>
+                        <figure class="ilustrasi-gambar text-center">
+                            <img class="img-fluid" src="#" alt="gambar ilustrasi lain">
+                            <figcaption>Caption ilustrasi lain</figcaption>
+                        </figure>
+                    </section>
+                    <!-- Tambah atau hapus section sesuai kebutuhan -->
+                </article>
+            </main>
+
+            <!-- Sidebar kanan (hidden di mobile) -->
+            <aside class="col-md-4 d-none d-md-block">
+                <div class="sticky-top sidebar-wrapper p-3 mb-4">
+                    <img class="img-panel img-fluid mb-3" src="#" alt="Gambar Sidebar">
+                    <h4 class="mb-5">Karya Tulisan Menarik Lainnya:</h4>
+                    <ul class="list-group">
+                        <li><a href="#" target="_blank">Judul Artikel Sidebar 1</a></li>
+                        <li><a href="#" target="_blank">Judul Artikel Sidebar 2</a></li>
+                        <li><a href="#" target="_blank">Judul Artikel Sidebar 3</a></li>
+                        <li><a href="#" target="_blank">Judul Artikel Sidebar 4</a></li>
+                        <li><a href="#" target="_blank">Judul Artikel Sidebar 5</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Artikel terkait di bawah untuk mobile -->
+    <div class="d-block d-md-none mt-5 px-3">
+        <h5 class="mb-3">Baca Artikel Menarik Lainnya:</h5>
+        <p><a href="#">Judul Artikel Mobile</a></p>
+    </div>
+
+    <!-- Swipe Up Button -->
+    <a href="#top"><button class="swipeup btn btn-outline-neutral btn-round"
+            aria-label="Kembali Keatas">&uArr;</button></a>
+
+    <!-- Footer Section -->
+    <footer>
+        <p class="text-center copyright-text">
+            © <span id="year"></span> Nama Kamu. All rights reserved.
+        </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <!-- Own JS -->
+    <script text="text/javascript" src="../js/main.js"></script>
+    <script>
+        // Auto update tahun di footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
